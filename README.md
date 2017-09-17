@@ -34,23 +34,23 @@ Notable packages, includes AUR packages
 # Running IMG Builds
 1. Run `./yes_aur.sh` to configure ./pacman.conf with ./aur_repo_x86_64 if using AUR. Run `./no_aur.sh` if not using AUR.
 2. [Optional] Customize `./build_image.sh` to adjust *size, name, path* for image.
-3. Customize packages to install in `./packages.both` and `./packages.x86_64`
-4. Customize services, users, and other configurations in `./airootfs/root/customize_airootfs.sh`
+3. Customize packages to install in ./packages.both and ./packages.x86_64
+4. Customize services, users, and other configurations in ./airootfs/root/customize_airootfs.sh
 5. Run `./build_image.sh` to build `[default:./production_disk.img]`
 
 # Running direct DISK Builds
 WARNING: Will repartition disk in argument, and wipe. Does nothing by default.
 1. Run `./yes_aur.sh` to configure ./pacman.conf with ./aur_repo_x86_64 if using AUR. Run `./no_aur.sh` if not using AUR.
 2. [Optional] Customize `./build_on_usb.sh` to adjust partitions, defaults to filling disk.
-3. Customize packages to install in `./packages.both` and `./packages.x86_64`
-4. Customize services, users, and other configurations in `./airootfs/root/customize_airootfs.sh`
+3. Customize packages to install in ./packages.both and ./packages.x86_64
+4. Customize services, users, and other configurations in ./airootfs/root/customize_airootfs.sh
 5. Run `./build_on_usb.sh <device: ex:/dev/sda>` to build directly onto disk.
 6. Example: `./build_on_usb.sh /dev/sdb` will wipe `/dev/sdb` and install Arch linux.
 
 # Getting and enabling AUR packages
-* AUR package git links are added to `./aur_git.links`.
-* Package names can be added or removed from `./packages.x86_64`.
-* Run `./yes_build_aur` to fetch and build packages that are listed in `./aur_git.links`.
+* AUR package git links are added to ./aur_git.links.
+* Package names can be added or removed from ./packages.x86_64.
+* Run `./yes_build_aur` to fetch and build packages that are listed in ./aur_git.links.
 * AUR pacman config can be re-enabled with `./yes_aur.sh`.
 # Disabling and deleting AUR packages
 * Run `./no_aur.sh` to disable custom repo in pacman.conf.
