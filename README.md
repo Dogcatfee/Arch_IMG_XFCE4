@@ -15,14 +15,12 @@ Notable packages, includes AUR packages
      - midori
    * Dev tools
      - vim
-     - Visual Studio Code
      - git
      - base-devel
    * Themes
      - Paper icons
      - Arc gtk themes
    * System
-     - Linux Kernel 4.12.13-1
      - Gparted
      - Pacaur & Yaourt
      - TLP ( enabled )
