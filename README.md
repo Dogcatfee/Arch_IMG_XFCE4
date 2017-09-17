@@ -52,6 +52,7 @@ WARNING: Will repartition disk in argument, and wipe. Does nothing by default.
 * Package names can be added or removed from ./packages.x86_64.
 * Run `./yes_build_aur` to fetch and build packages that are listed in ./aur_git.links.
 * AUR pacman config can be re-enabled with `./yes_aur.sh`.
+
 # Disabling and deleting AUR packages
 * Run `./no_aur.sh` to disable custom repo in pacman.conf.
 * Run `./clean_aur.sh` to remove AUR repo and AUR_BUILDER files.
