@@ -28,7 +28,7 @@ Notable packages, includes AUR packages
 
 # Basic requirement stuff:
   - Arch Linux install 64-bit
-  - [TODO] Dependencies.
+  - [TODO] Dependencies, Base-devel.
   - Have enough disk space to install Arch. 1G For bare minimum IMG build. 5Gb for Default GIT Build. [Direct DISK build does not depend on main disk space]
 
 # Running IMG Builds
