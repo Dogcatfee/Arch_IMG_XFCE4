@@ -31,6 +31,10 @@ Notable packages, includes AUR packages
   - [TODO] Dependencies, Base-devel.
   - Have enough disk space to install Arch. 1G For bare minimum IMG build. 5Gb for Default GIT Build. [Direct DISK build does not depend on main disk space]
 
+# Default GIT Build
+* Run `./yes_build_aur.sh` to git and makepkg AUR packages + enable AUR.
+* Run `./build_image.sh` to build the image.
+
 # Running IMG Builds
 1. Run `./yes_aur.sh` to configure ./pacman.conf with ./aur_repo_x86_64 if using AUR. Run `./no_aur.sh` if not using AUR.
 2. [Optional] Customize `./build_image.sh` to adjust *size, name, path* for image.
