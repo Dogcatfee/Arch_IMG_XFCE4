@@ -10,8 +10,8 @@ https://aur.archlinux.org/pacaur.git
 #--Deps--#
 https://aur.archlinux.org/cower.git
 
-https://aur.archlinux.org/yaourt.git
 #Yaourt
+https://aur.archlinux.org/yaourt.git
 #--Deps--#
 https://aur.archlinux.org/package-query.git
 
