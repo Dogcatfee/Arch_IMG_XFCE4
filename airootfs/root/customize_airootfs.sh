@@ -76,7 +76,7 @@ systemctl enable lightdm
 systemctl enable tlp
 
 ##Install grub, kinda bad with EFI
-grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub
+grub-install --target=x86_64-efi
 grub-install --target=i386-pc /dev/loop0
 grub-mkconfig -o /boot/grub/grub.cfg
 echo "fs0:\EFI\grub\grubx64.efi" >> /boot/efi/startup.nsh
