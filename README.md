@@ -1,6 +1,10 @@
 # Arch_IMG
 Scripts to build x86_64-bit Arch Linux IMG files, that can be written similarly to RPi images. Attempts made to be compatible with existing Archiso recipies.
 
+# TODO
+* Get EFI working correctly
+* Generate fstab
+* More compatibility with existing Archiso scripts
 
 # Default GIT build
 Notable packages, includes AUR packages
