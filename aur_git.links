@@ -3,12 +3,12 @@
 #https://aur.archlinux.org/visual-studio-code.git
 
 #Broadcom wireless drivers
-https://aur.archlinux.org/broadcom-wl.git
+#https://aur.archlinux.org/broadcom-wl.git
 
 #Pacaur
-https://aur.archlinux.org/pacaur.git
+#https://aur.archlinux.org/pacaur.git
 #--Deps--#
-https://aur.archlinux.org/cower.git
+#https://aur.archlinux.org/cower.git
 
 #Yaourt
 https://aur.archlinux.org/yaourt.git
