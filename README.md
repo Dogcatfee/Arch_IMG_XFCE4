@@ -28,11 +28,11 @@ Notable packages, includes AUR packages
 
 # Basic requirement stuff:
   - Arch Linux install 64-bit
-  - [TODO] Dependencies, Base-devel.
-  - Have enough disk space to install Arch. 1G For bare minimum IMG build. 5Gb for Default GIT Build. [Direct DISK build does not depend on main disk space]
+  - [TODO] Dependencies, base-devel, gpg key for AUR cower.
+  - Enough disk space to install Arch. 1G For bare minimum IMG build. 5Gb for Default GIT Build. [Direct DISK build does not depend on main disk space]
 
 # Default GIT Build
-* Run `./yes_build_aur.sh` to git and makepkg AUR packages + enable AUR.
+* Run `./yes_build_aur.sh` to do git and makepkg on AUR packages + enable AUR.
 * Run `./build_image.sh` to build the image.
 
 # Running IMG Builds
