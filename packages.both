@@ -25,7 +25,6 @@ hdparm
 ipw2100-fw
 ipw2200-fw
 irssi
-lftp
 linux-atm
 lsscsi
 mc
@@ -33,7 +32,6 @@ mtools
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 ntp
 openconnect
