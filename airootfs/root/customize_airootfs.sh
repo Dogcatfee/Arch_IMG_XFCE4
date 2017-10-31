@@ -70,6 +70,8 @@ echo  "default-user-image = #applications-internet" >> /etc/lightdm/lightdm-gtk-
 #sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 #sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
+# Add a hostname
+echo "archo" > /etc/hostname
 ##Enable system services
 #systemctl enable pacman-init.service choose-mirror.service
 systemctl enable lightdm
